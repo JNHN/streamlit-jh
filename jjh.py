@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-st.title('blue[JINHYUNEE]')
+st.title(':blue[JINHYUNEE]')
 
 money = pd.read_csv("money_data7.csv")
 
