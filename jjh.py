@@ -44,5 +44,4 @@ st.dataframe(money)
 
 import streamlit as st
 
-st.title('JINHYUNEE')
-st.title('A title with _italics_ :blue[colors] and emojis :sunglasses:')
+st.title('JINHYUNEE :money:')
