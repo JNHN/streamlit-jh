@@ -17,6 +17,8 @@ st.write('You selected:', option)
 
 money = money[:] [money['A_YEAR']== option2]
 
+st.sidebar.success("Select a demo above.")
+
 fig, ax = plt.subplots(2,2, figsize=(12,8))
 
 plt.subplot(221)
