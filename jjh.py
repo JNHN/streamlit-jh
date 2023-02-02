@@ -128,4 +128,4 @@ elif select_language =='KBO 야구 순위 & 승률':
         
   with tab2:
         tab2.subheader("데이터로 보기")
-        st.dataframe(aa)
+        st.dataframe(bb)
