@@ -83,7 +83,7 @@ def bar_chart():
     y = df7.승률
     
     global bb
-    bb = df.7
+    bb = df7
     
     fig, ax = plt.subplots(figsize=(12,8))
 
