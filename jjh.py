@@ -82,6 +82,9 @@ def bar_chart():
     x = df7.팀
     y = df7.승률
     
+    global bb
+    bb = df.7
+    
     fig, ax = plt.subplots(figsize=(12,8))
 
     colors = ['C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7' ,'C8', 'C9', 'C10' ]
@@ -92,7 +95,7 @@ def bar_chart():
 
     plt.title( "year korea baseball winrate data", position=(0.5,1.1))
     st.pyplot(fig)
-    st.dataframe(df7)
+    #st.dataframe(df7)
 
         
 
